@@ -1,0 +1,76 @@
+body {
+    margin: 30px 5px 15px;
+	position: fixed;
+	top: 20px;
+	left: 155px;
+	border-style: solid;
+	border-color: black;
+	width: 600px;
+	height: 750px;
+}
+p {
+	font-family: sans-serif;
+	font-size: 20px;
+	margin: 15px;
+}
+i {
+	font-size: 40px;
+	margin: 5px;
+}
+
+
+
+
+
+.Head {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	align-content: center;
+
+}
+.Head1 {
+	display: flex;
+	margin-left: 20px;
+	margin-bottom: 5px;
+}
+.Head2 {
+	margin-right: 20px;
+	margin-top: 15px;
+	margin-bottom: 5px;
+
+}
+
+
+
+
+
+.Icons {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	align-content: center;
+}
+.Icons1 {
+	margin-left: 18px;
+	margin-top: 10px;
+}
+.Icons2 {
+	margin-right: 20px;
+	margin-top: 10px;
+}
+
+.Texts {
+	margin: 5 5 5 5;
+}
+
+
+
+	
+
+
+
