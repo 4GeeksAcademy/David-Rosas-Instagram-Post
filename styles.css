@@ -1,12 +1,7 @@
 body {
-    margin: 30px 5px 15px;
-	position: fixed;
-	top: 20px;
-	left: 155px;
-	border-style: solid;
-	border-color: black;
-	width: 600px;
-	height: 750px;
+	background-color: black;
+	display: flex;
+	justify-content: center;
 }
 p {
 	font-family: sans-serif;
@@ -20,12 +15,18 @@ i {
 
 
 
-
+.Post {
+	background-color: white;
+	margin: 30px 5px 15px;
+	border-style: solid;
+	border-color: black;
+	width: 600px;
+	height: 750px;
+}
 
 .Head {
 	display: flex;
 	flex-direction: row;
-	flex-wrap: nowrap;
 	justify-content: space-between;
 	align-items: flex-start;
 	align-content: center;
@@ -50,7 +51,6 @@ i {
 .Icons {
 	display: flex;
 	flex-direction: row;
-	flex-wrap: nowrap;
 	justify-content: space-between;
 	align-items: flex-start;
 	align-content: center;
